@@ -1,0 +1,22 @@
+/*#headingone{
+    //color:rgb(25, 190, 250);
+    text-align: center;
+    text-shadow: 1px 1px 0px violet;
+    font-size:80px;
+    background-image:url(../ganesh.png);
+    
+
+}
+img{
+    width: 300px;
+    display:block;
+    margin:auto;
+}*/
+div{
+    text-align: center;
+
+
+}
+img{
+    width:300px;
+}
