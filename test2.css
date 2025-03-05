@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(#000000,rgb(22, 22, 60),
+     #243e6b);
+    color:white;
+    font-size:larger;
+    margin:10px;
+}
+.first{
+    img{
+    width: 400px;
+    float:left;
+    margin:10px;
+    }
+}
+.second{
+    clear:both;
+}
+
+  a:visited {
+    color: rgb(17, 251, 255);
+}
+  
+  
