@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ body{
+    display:grid;
+    height: 100%;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.75fr;
+    
+ }
+ .f1, .f2, .f3, .f4, .f5, .f6, .f7, .f8 {
+    aspect-ratio: 1 / 1;  
+ }
+  .f1 {
+   background-image: url("https://wallpapercrafter.com/desktop6/1536853-Stock-Landscape-Scenery-Greenery-Blue-sky-2K.jpg");
+    grid-column: 1/5;
+    grid-row:1/3;
+    aspect-ratio: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+ h1,h2,h3{
+    margin:0 ;
+    padding: 0;
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+h4{
+    margin:0 ;
+    padding: 0;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+.f1 button{
+    margin:20px 0;
+    padding:10px 40px;
+    background-color: rgb(255, 218, 10);
+    border: none;
+    border-radius: 5%;
+}
+.f2{
+    aspect-ratio: auto;
+    grid-row: 3/5;
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    background-image: linear-gradient(to right,white 50%,rgb(236, 223, 223) 50%);
+    gap:0.1%;
+}
+.f2 .part1{
+    padding:0 0 0 5%;
+}
+.f2 .part2{
+    padding:0 5% 0 0;
+}
+.f2 .part1 .headings{
+    color: rgba(17, 17, 104, 0.759);
+    margin:0;
+    padding:0 0 0 4%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.f2 .text{
+    margin: 0;
+    padding: 0;
+    padding:3% 10% 10% 3%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.f2 img{
+    height:500px;
+    margin:0;
+    padding:8% 0 10% 0; 
+}
+.f3{
+    margin: 0;
+    grid-row:5/6;
+    grid-column: 1/2;
+    aspect-ratio: auto;
+    display: flex;
+    justify-content:center;
+    padding:0 0 0 20%;
+    color: rgba(17, 17, 104, 0.759);
+}
+.f4{
+    margin: 0;
+    grid-row:5/6;
+    grid-column: 2/3;
+    aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.f5{
+    margin: 0;
+    grid-row:5/6;
+    grid-column: 3/4;
+    aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.f6{
+    margin: 0;
+    grid-row:5/6;
+    grid-column: 4/5;
+    aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #ffffff5d;  
+}
+.f7{
+    margin: 0;
+    grid-row:6/7;
+    grid-column: 2/3;
+    aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #ffffff5d;  
+}
+.f8{
+    margin: 0;
+    grid-row:6/7;
+    grid-column: 3/4;
+    aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #ffffff5d;  
+}
+.f4 img, .f5 img, .f6 img, .f7 img, .f8 img {
+  width: 75%;               
+  height:  300px;             
+  border-radius: 8px;  
+  padding:0 0 0 13%; 
+}
+.f9{
+    margin:0;
+    grid-row:7/8;
+    grid-column:1/5;
+    text-align:center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(17, 17, 104, 0.759);
+    gap:30px;
+}
+.f9 ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(17, 17, 104, 0.759);
+    gap:10px;
+    list-style-type:none;
+}
+.f9 ul button{
+       background-color: white;
+       color: rgba(17, 17, 104, 0.759);
+       margin:0px;
+       padding:20px 20px;
+       border: none;
+       font-size: 1.5rem;
+
+}
+.f9 ul button:hover{
+           color:black;
+}
+
+</style>
+<body>
+    <div class="f1">
+     <div class="headings">
+        <h1>ALL TRAVEL FROM<br>
+         DIRECT ORGANISERS!<br>
+        WE INVITE YOU TO TRAVEL!</h1>
+     </div>
+        <button class="buttons">Discover</button>
+    </div>
+    <div class="f2">
+       <div class="part1">
+         <div class="headings"><h2>OUTDOOR<br>ACTIVITY</h2></div>
+         <div class="text"><p>Traveling opens the door to new cultures, perspectives, and environments. It provides an opportunity to step outside one's comfort zone and engage with people from diverse backgrounds. Cultural travel, for example, exposes individuals to history, traditions, and languages that differ from their own. Meanwhile, nature-based travel allows people to witness the beauty and fragility of ecosystems, from tropical rainforests to icy glaciers. These experiences can foster a greater appreciation for the environment and inspire sustainable habits.Complementing travel are outdoor activities, which offer a more direct and physical engagement with nature. Hiking, kayaking, cycling, and climbing are just a few examples of adventures that combine exploration with exercise. These activities not only keep the body fit but also serve as powerful stress relievers. In natural environments, the mind slows down, and mental clarity often improves. </p></div>
+       </div>
+       <div class="part2"><img src="https://media.istockphoto.com/id/1166417561/photo/four-peoples-silhouettes-on-mountain-top-looks-at-sunset.jpg?s=612x612&w=0&k=20&c=x3mTUvr5SfozO3uRT8JrVJcEksMrbQ8RHXPOpJjLuI4=" alt=""></div>
+    </div>
+    <div class="f3"><h3>TYPES OF<br>TOURISM</h3></div>
+    <div class="f4"><img src="https://p.kindpng.com/picc/s/47-479321_backpacking-clip-art-transprent-trekking-clipart-hd-png.png" alt="Hiking"><p>Hiking</p></div>
+    <div class="f5"><img src="https://hariharchemicals.com/wp-content/uploads/2020/09/Harihar-Chemicals-Industries-Ankleshwar-solutions-2-150x150.png" alt="Rafting"><p>Rafting</p></div>
+    <div class="f6"><img src="https://img.freepik.com/premium-vector/expeditions-mountain-logo-design-template_296091-1075.jpg" alt="Ethnotours"><p>Ethnotours & <br>Expeditions</p></div>
+    <div class="f7"><img src="https://i.pinimg.com/140x140_RS/76/32/3e/76323e5d81cbb5986cda7e85b9205361.jpg" alt="Other"><p>Other</p></div>
+    <div class="f8"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHVyP7XGcDuVcHxJuMrpVE_acHhTMb2UjGQTF9T88tLr-KNIZ" alt="Winter Hiking"><p>Winter Hiking</p></div>
+    <div class="f9">
+        <h4>what suits you to choose</h4>
+        <ul>
+            <li><button>Hiking</button></li>
+            <li><button>Rafting </button></li>
+            <li><button>Kayaking</button></li>
+            <li><button>Other</button></li>
+        </ul>
+    </div>
+</body>
+</html>
