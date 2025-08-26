@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+  .pink {
+    color: rgba(163, 32, 56, 0.586);
+  }
+  .code-style {
+  font-family: "Courier New", "Lucida Console", Monaco, monospace;
+  }
+</style>
+
+<body>
+    <!-- container -->
+    <div class="container p-3">
+        <!-- nav -->
+        <nav class="navbar">
+            <a href="" class="navbar-brand pink code-style"><h1>Eira</h1></a>
+            <div class="input-group mx-auto w-50">
+                <input type="text" class="form-control" placeholder="Search...">
+                 <span class="input-group-text"><i class="bi bi-search"></i></span>
+            </div>
+            <button class="btn btn-outline-primary ms-auto">Sign Up</button>
+        </nav>
+        <hr  class="m-0">
+        <!-- main -->
+         <main>
+          <div class="menu row justify-content-center m-5 g-4">
+            <!-- card-1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="https://s.alicdn.com/@sc04/kf/H4680e70dd3234a99b9f00f4477321b39f.jpg" alt="" width="100%">
+                <div class="card-body text-center">
+                    <h3>Sleeve Floral Dress</h3>
+                    <p>This 2024 floral printed summer dress keeps teen girls stylish and cool with its breathable fabric and short sleeves. Perfect for outings, parties, or everyday wear.</p>
+                    <button class="btn btn-outline-primary text-center " data-bs-toggle="modal" data-bs-target="#product1">View Details >></button>
+                </div>
+            </div>
+            </div>
+            <!-- card-2 -->
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="https://www.oulaccosmetics.com/cdn/shop/files/RoseriumMatteLipstick-ProductColorChart-RM02ROSALY-3000x3000.jpg?v=1750243440&width=416" alt="" width="100%">
+                <div class="card-body text-center">
+                    <h3>Roserium Lipstick</h3>
+                    <p class="justify-content">Elevate your look with the Rosérium Matte Lipstick in RM02 Rosaly.Designed to enhance your natural elegancer, making it perfect for any occasions.</p>
+                    <button class="btn btn-outline-primary text-center" data-bs-toggle="modal" data-bs-target="#product2">View Details >></button>
+                </div>
+            </div>
+            </div>
+            <!-- card-3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="https://www.numberoneshoes.com.au/content/products/camilla-block-heels-blush-image02-camilla-heels.jpg" alt="" width="100%">
+                <div class="card-body text-center" >
+                    <h3>Block Heels</h3>
+                    <p>Elegant and versatile, the Camilla Block Heels in blush style with a modern twist.Featuring a block heel and chic strappy design, they're perfect for any occasion.</p>
+                   <button class="btn btn-outline-primary text-center" data-bs-toggle="modal" data-bs-target="#product3">View Details >></button>
+                </div>
+            </div>
+            </div>
+            </div>
+         </main>
+         <!-- modal-1 -->
+         <div class="modal fade" id="product1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                           <h5>Short Sleeve Floral Dress</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Price:</strong> $8.00<br>
+                           <strong>Brand:</strong> Alibaba<br>
+                           <strong>Model No:</strong> FLR-2024<br>
+                           <strong>Material:</strong> Cotton Blend<br>
+                           <strong>Size Range:</strong> 8–16 yrs
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- modal-2 -->
+         <div  class="modal fade" id="product2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                           <h5 class="modal-title">Roserium Lipstick</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Price:</strong> $12.00<br>
+                        <strong>Brand:</strong> Oulac Cosmetics<br>
+                        <strong>Model No:</strong> RM02-Rosaly<br>
+                        <strong>Type:</strong> Matte Lipstick<br>
+                        <strong>Shade:</strong> Rosaly Pink
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- modal-3 -->
+        <div class="modal fade" id="product3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                           <h5>Camilla Block Heels</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Price:</strong> $59.99<br>
+                         <strong>Brand:</strong> Number One Shoes<br>
+                         <strong>Model No:</strong> CAM-BH-2023<br>
+                         <strong>Heel Height:</strong> 2.5 inches<br>
+                         <strong>Material:</strong> Faux Leather
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
